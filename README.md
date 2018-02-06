@@ -13,14 +13,16 @@ Primeiramente, esse ambiente eu só montei em Windows 10 Pro 64-bits, de acordo 
 Os requisitos para a instalação são:
 
 Arquitetura 64 bits
+
 Versão Pro
+
 Virtualização habilitada => Que vc consegue visualizar dentro de Gerenciador de Tarefas
 
 ![Passo 1](readme_images/Picture1.jpg?raw=true)
 
 Aqui está o link para download do docker.
 
-[Docker Donwload](https://store.docker.com/editions/community/docker-ce-desktop-windows)
+[Docker Download](https://store.docker.com/editions/community/docker-ce-desktop-windows)
 
 Após a instalação reinicie seu computador.
 
@@ -60,7 +62,7 @@ Senão, baixe o código em formato zip e extraia na pasta raiz C:/.
 
 ![Passo 4](readme_images/Picture4.jpg?raw=true)
 
-<h3>4.Entendendo a estrutura de um DOckkerfile</h3>
+<h3>4.Entendendo a estrutura de um Dockerfile</h3>
 
 O Dockerfile é a nossa "receita de bolo" para criar um container de acordo com a nossa necessidade.
 
@@ -99,17 +101,22 @@ ENTRYPOINT ["bundle", "exec", "cucumber"]
 
 ```
 
-* Detalhando brevemente nosso Dockerfile:
+<h4>Detalhando brevemente nosso Dockerfile:</h4>
 
 FROM é nossa imagem base.
+
 MAINTAINER é mera formalidade.
+
 ENV são variáveis de ambiente.
-WORKDIR é o nosso diretório onde iremos trabalhar (WORKING DIRECTORY)
+
+WORKDIR é o nosso diretório onde iremos trabalhar (WORKING DIRECTORY).
+
 COPY é para copiar o nosso Gemfile para a pasta que definimos.
 
 Agora temos um grande bloco onde são executadas algumas instruções e também a instalação do phantomjs.
 
 COPY para copiar novamente
+
 ENTRYPOINT é o comando que eu quero executar quando eu rodar o container
 
 <h3>5.Executando os testes</h3>
@@ -146,7 +153,7 @@ docker images
 
 ![Passo 11](readme_images/Picture11.jpg?raw=true)
 
-Agora iremos rodar esse teste:
+Agora iremos rodar nossos teste:
 
 docker run <id_da_image>
 
@@ -216,7 +223,9 @@ O teste quebrou, pois não encontrou o texto " Eu sou QA, meu papel é evitar Bu
 SENSACIONAL neh?
 
 Então é isso aí galera, por hoje é só!
+
 Entou trabalhando no rbenv for Windows e quanto estiver pronto lanço para vcs.
+
 Espero que gostem. Um grande abraço.
 
 Contato
