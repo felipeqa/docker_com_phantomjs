@@ -16,7 +16,7 @@ Arquitetura 64 bits
 Versão Pro
 Virtualização habilitada => Que vc consegue visualizar dentro de Gerenciador de Tarefas
 
-[Passo 1](readme_images/Picture1.jpg?raw=true)
+![Passo 1](readme_images/Picture1.jpg?raw=true)
 
 Aqui está o link para download do docker.
 
@@ -26,7 +26,7 @@ Após a instalação reinicie seu computador.
 
 Após reiniciar o seu  computador verifique se o Docker está rodando:
 
-[Passo 2](readme_images/Picture2.jpg?raw=true)
+![Passo 2](readme_images/Picture2.jpg?raw=true)
 
 Ou utilizando o seu cmd:
 
@@ -34,7 +34,7 @@ Ou utilizando o seu cmd:
 docker version
 ```
 
-[Passo 3](readme_images/Picture3.jpg?raw=true)
+![Passo 3](readme_images/Picture3.jpg?raw=true)
 
 <h3>2.Instalando o Docker em outras versões de Windows</h3>
 
@@ -58,7 +58,7 @@ git clone https://github.com/felipeqa/docker_com_phantomjs.git
 
 Senão, baixe o código em formato zip e extraia na pasta raiz C:/.
 
-[Passo 4](readme_images/Picture4.jpg?raw=true)
+![Passo 4](readme_images/Picture4.jpg?raw=true)
 
 <h3>4.Clonando o projeto ou baixando</h3>
 
