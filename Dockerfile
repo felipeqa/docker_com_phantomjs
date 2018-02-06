@@ -2,7 +2,7 @@ FROM ruby:2.3
 
 MAINTAINER Felipe Rodrigues <felipe_rodriguesx@hotmail.com>
 
-ENV app_path /opt/ambiente_de_automacao/
+ENV app_path /opt/docker_com_phantomjs/
 WORKDIR ${app_path}
 
 COPY Gemfile* ${app_path}
