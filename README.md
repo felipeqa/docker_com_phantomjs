@@ -185,7 +185,7 @@ assert_text("Eu sou QA, meu papel é evitar Bug")
 
 ![Passo 13](readme_images/Picture13.jpg?raw=true)
 
-Agora vamos buildar uma nova imagem, com a nossa altereção do assert_text:
+Agora vamos buildar uma nova imagem, com a nossa alteração do assert_text:
 
 
 ```bash
