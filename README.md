@@ -141,7 +141,7 @@ E os comando serão executados:
 
 ![Passo 8](readme_images/Picture8.jpg?raw=true)
 
-![Passo 9](readme_images/Picture.jpg?raw=true)
+![Passo 9](readme_images/Picture9.jpg?raw=true)
 
 ![Passo 10](readme_images/Picture10.jpg?raw=true)
 
@@ -224,7 +224,7 @@ SENSACIONAL neh?
 
 Então é isso aí galera, por hoje é só!
 
-Entou trabalhando no rbenv for Windows e quanto estiver pronto lanço para vcs.
+Estou trabalhando no rbenv for Windows e quanto estiver pronto lanço para vcs.
 
 Espero que gostem. Um grande abraço.
 
